@@ -1,0 +1,124 @@
+@media (max-width: 767px){
+    .promo{
+        min-height: 570px;
+        padding-bottom: 50px;
+        .header{
+            &__logo{
+                width: 230px;
+            }
+            &__official{
+                span{
+                    font-size: 16px;
+                }
+            }
+            &__phone{
+                font-size: 16px;
+            }
+        }
+        &__wrapper{
+            padding-top: 65px;
+        }
+        &__header{
+            font-size: 35px;
+        }
+        &__subheader{
+            font-size: 20px;
+        }
+        &__icons{
+            margin-top: 30px;
+            width: 370px;
+        }
+        &__icon{
+            width: 90px;
+            font-size: 10px;
+        }
+    }
+    .benefits{
+        min-height: 420px;
+        padding: 40px 0 40px;
+        &__wrapper{
+            margin-top: 30px;
+        }
+        &__subtitle{
+            margin-top: 30px;
+            font-size: 16px;
+        }
+        &__text{
+            font-size: 13px;
+        }
+    }
+}
+@media (max-width: 575px){
+    .promo{    
+        min-height: 480px;
+        padding-bottom: 25px;
+        .header{
+            &__logo{
+                img{
+                    width: 95%;
+                }
+            }
+            &__official{
+                display: none;
+            }
+            &__phone{
+                font-size: 14px;
+            }
+            &__contacts{
+                align-items: center;
+            }
+        }
+        &__wrapper{
+            padding-top: 35px;
+            align-items: center;
+        }
+        &__header{
+            font-size: 25px;
+        }
+        &__subheader{
+            font-size: 15px;
+        }
+        &__icons{
+            margin-top: 25px;
+            width: 320px;
+        }
+        &__link{
+            text-align: center;
+            .xxs{
+                display: block;
+            }
+        }
+    }
+    .button{
+        width: 145px;
+        height: 20px;
+        &_main{
+            margin-top: 50px;
+            width: 300px;
+            height: 45px;
+        }
+    }
+    .benefits{
+        min-height: 400px;
+        padding: 25px 0 25px;
+        &__wrapper{
+            display: block;
+            margin-top: 20px;
+        }
+        &__item{
+            margin: 0 auto;
+        }
+        &__subtitle{
+            margin-top: 5px;
+            font-size: 16px;
+        }
+        &__text{
+            font-size: 12px;
+            margin-top: 5px;
+            padding-bottom: 30px;
+        }
+    }
+    .title{
+        font-size: 22px;
+    }
+}
