@@ -1,3 +1,32 @@
+@media (max-width: 992px){
+    .carousel{
+        &__inner{
+            .slick-dots{
+                margin-top: 15px;
+                display: flex;
+                justify-content: center;
+                list-style-type: none;
+                li{
+                    margin: 0 5px;
+                    font-size: 0;
+                    button{
+                        width: 15px;
+                        height: 15px;
+                        border-radius: 100%;
+                        background-color: white;
+                    }
+                }
+            }
+        }
+    }
+    .catalog{
+        &__content{
+            margin-top: 50px;
+            justify-content: space-around;
+        }
+    }
+}
+
 @media (max-width: 767px){
     .promo{
         min-height: 570px;
@@ -45,6 +74,72 @@
         }
         &__text{
             font-size: 13px;
+        }
+    }
+    .title{
+        &_left{
+            font-size: 28px;
+            line-height: 1.2;
+            text-align: center;
+        }
+    }
+    .consultation {
+        min-height: 495px;
+        padding: 15px 0 25px 0;
+        &__subtitle{
+            margin-top: 60px;
+            font-size: 14px;
+            text-align: center;
+        }
+    }
+    .feed-form{
+        margin: 0 auto;
+    }
+    .carousel{
+        &__inner{
+            width: 500px;
+        }
+        &__slide{
+            img{
+                width: 100%;
+            }
+        }
+    }
+    .catalog{
+        margin-bottom: 50px;
+        &-product{
+            width: 284px;
+        }
+        &__tab{
+            width: 150px;
+            height: 35px;
+            font-size: 14px;
+            line-height: 33px;
+        }
+    }
+    .feedback{
+        &-item{
+            margin-top: 50px;
+            &:nth-child(1){
+                margin-top: 40px;
+            }
+            &__avatar{
+                width: 115px;
+                height: 115px;
+                margin-right: 30px;
+            }
+            &__name{
+                font-size: 15px;
+            }
+            &__achievement{
+                margin-top: 5px;
+                font-size: 11px;
+            }
+            &__text{
+                margin-top: 10px;
+                font-size: 12px;
+                line-height: 1.2;
+            }
         }
     }
 }
@@ -97,6 +192,15 @@
             width: 300px;
             height: 45px;
         }
+        &_feed{
+            width: 100%;
+            height: 50px;
+        }
+        &_product{
+            width: 130px;
+            height: 25px;
+            font-size: 14px;
+        }
     }
     .benefits{
         min-height: 400px;
@@ -120,5 +224,117 @@
     }
     .title{
         font-size: 22px;
+    }
+    .consultation {
+        min-height: 500px;
+        &__subtitle{
+            margin-top: 40px;
+        }
+    }
+    .carousel{
+        padding: 45px 0;
+        &__inner{
+            width: 300px;
+        }
+        &__slide{
+            img{
+                width: 100%;
+            }
+        }
+    }
+    .catalog{
+        &__tabs{
+            display: block;
+            margin-top: 20px;
+        }
+        &__tab{
+            margin: 5px auto;
+        }
+        &__content{
+            margin-top: 30px;
+        }
+        &-product{
+            width: 150px;
+            padding: 10px 10px 15px 10px;
+            &_img{
+                padding-left: 0;
+                width: 100px;
+                height: 150px;
+            }
+            &__subtitle{
+                margin-top: 10px;
+                font-size: 13px;
+                padding-right: 5px;
+            }
+            &__descr{
+                margin-top: 10px;
+                font-size: 10px;
+                padding-right: 5px;
+            }
+            &__content{
+                transform: translateX(-125%);
+                &_active{
+                    transform: translateX(0%);
+                }
+            }
+            &__list{
+                padding-right: 0px;
+                li{
+                    font-size: 10px;
+                    margin-bottom: 5px;
+                }
+            }
+            &__link{
+                margin-top: 10px;
+                font-size: 12px;
+            }
+            &__back{
+                position: absolute;
+                bottom: 0;
+                left:50%;
+                transform: translateX(-80%);
+                font-size: 12px;
+            }
+            &__footer{
+                margin-top: 15px;
+                display: block;
+            }
+            &__old_price{
+                font-size: 13px;
+            }
+            &__price{
+                font-size: 18px;
+            }
+        }
+    }
+    .feedback{
+        &-item{
+            display: block;
+            margin-top: 25px;
+            &:nth-child(1){
+                margin-top: 15px;
+            }
+            &__avatar{
+                width: 90px;
+                height: 90px;
+                margin: 0 auto;
+                display: block;
+            }
+            &__name{
+                text-align: center;
+                margin-top: 5px;
+            }
+            &__achievement{
+                margin-top: 1px;
+                font-size: 10px;
+                text-align: center;
+            }
+            &__text{
+                margin-top: 10px;
+                font-size: 11px;
+                padding: 0 20px;
+                text-align: justify;
+            }
+        }
     }
 }
