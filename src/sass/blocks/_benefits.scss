@@ -35,4 +35,9 @@
             color: #f00;
         }
     }
+    &__image{
+        &_animated{
+            animation: heartbeat 2s ease infinite;
+        }
+    }
 }
